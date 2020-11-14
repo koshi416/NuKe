@@ -27,9 +27,9 @@ double Nk_pid::GetGain(double xvalue){
   return (rtn/xvalue);
 }
 void Nk_pid::SetLimit(double max_p,double min_p,double max_m,double min_m){
-  Max_P = max_p*255.0;
-  Min_P = min_p*255.0;
-  Max_M = max_m*255.0;
-  Min_M = min_m*255.0;
+  Max_P = max_p*1.0;
+  Min_P = min_p*1.0;
+  Max_M = max_m*1.0;
+  Min_M = min_m*1.0;
 }
 Nk_pid::~Nk_pid(){}
