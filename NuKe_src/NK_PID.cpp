@@ -1,4 +1,4 @@
-#include "NK_PID.hpp"
+あ#include "NK_PID.hpp"
 
 Nk_pid::Nk_pid(double kp,double ki,double kd,double freq){
     Kp=kp;
