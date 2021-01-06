@@ -1,4 +1,4 @@
-#include "NK_PID.hpp"
+あ#include "NK_PID.hpp"
 
 Nk_pid::Nk_pid(double kp,double ki,double kd,double freq){
     Kp=kp;
@@ -32,4 +32,4 @@ void Nk_pid::SetLimit(double max_p,double min_p,double max_m,double min_m){
   Max_M = max_m*1.0;
   Min_M = min_m*1.0;
 }
-Nk_pid::~Nk_pid(){}
+Nk_pidkjdfkjdkjdkjkjkjkj;lakjladfskkljdskjldfskjldsfkjlsfakjsdjgigjeiufjdldfkjasodfiajeoifajjklajsekjfalsdkjfalskjdfl;kasjd;flakjsdf;lkjlkajsfNk_pid(){}
